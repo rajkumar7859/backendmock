@@ -2,7 +2,7 @@ const express = require('express');
 const cors =require("cors")
 require("dotenv").config()
 const mongoose = require('mongoose');
-const User = require('../model/user.model');
+const User = require('./model/user.model');
 // const randomWord = require('random-word');
 const port =process.env.PORT
 const app = express();
