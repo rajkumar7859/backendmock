@@ -1,6 +1,6 @@
 const express = require('express');
 const { default: mongoose } = require('mongoose');
-const Usermodle = require('./model/user.model');
+const Usermodle = require('./src/model/user.model');
 const cors=require("cors")
 require("dotenv").config()
 
