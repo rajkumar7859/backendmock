@@ -8,3 +8,10 @@ const userSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("user", userSchema);
+
+// {
+// "first_name":"rajkumar12",
+// "last_name":"eassy",
+// "email":"a@gmail.com",
+// "password":"1231"
+// }
